@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Thevenrex\CookieJar;
 
-class CookieJar
+class CookieJar implements CookieJarInterface
 {
     public array $cookies = [];
 
@@ -24,7 +24,7 @@ class CookieJar
         return $this;
     }
 
-    public function getFileName()
+    public function getFileName(): string
     {
         return $this->fileName;
     }
