@@ -90,7 +90,7 @@ class Cookie
     {
         $cookie = '';
 
-        if ('TRUE' === $this->cookie['httpOnly']) {
+        if ($this->cookie['httpOnly'] === 'TRUE') {
             $this->cookie['domain'] = self::HTTP_ONLY . $this->cookie['domain'];
         }
 
