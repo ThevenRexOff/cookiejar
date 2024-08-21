@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Thevenrex\CookieJar;
 
 class FolderManager
@@ -22,7 +24,7 @@ class FolderManager
         $this->directory = $directory;
         return $this;
     }
-    
+
     public function getDirectory()
     {
         return $this->directory;

@@ -9,7 +9,7 @@ use Thevenrex\CookieJar\CookieJar;
 use Thevenrex\CookieJar\FolderManager;
 
 $cookieHandler = new CookieJar(
-    (new FolderManager)->setDirectory(__DIR__ . '/Cache')
+    (new FolderManager())->setDirectory(__DIR__ . '/Cache')
 );
 
 $cookieHandler->setFileName('cookies.txt')
