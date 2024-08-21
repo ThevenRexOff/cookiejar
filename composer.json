@@ -1,0 +1,24 @@
+{
+    "version": "1.0.0",
+    "name": "thevenrex/cookie-jar",
+    "type": "library",
+    "description": "Cookie Jar for PHP",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thevenrex\\CookieJar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ThevenRexOff",
+            "email": "thevenrexoficial@oulook.es"
+        }
+    ],
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.62"
+    },
+    "scripts": {
+        "fix": "php-cs-fixer fix --config=.php-cs-fixer.dist.php --verbose"
+    }
+}
