@@ -1,5 +1,5 @@
 {
-    "version": "2.0.0",
+    "version": "2.0",
     "name": "thevenrex/cookie-jar",
     "type": "library",
     "description": "Cookie Jar for PHP",
